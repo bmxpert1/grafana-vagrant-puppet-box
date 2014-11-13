@@ -55,7 +55,7 @@ define(['settings'],
             datasources: {
                 graphite: {
                     type: "graphite",
-                    url: "http://" + hostName + ":9100",
+                    url: "http://" + hostName + ":80",
                     default: true
                 },
                 elasticsearch: {
